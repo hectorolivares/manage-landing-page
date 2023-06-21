@@ -52,7 +52,9 @@ import Header from '../components/Header.vue';
     <section class="flex flex-col items-center mb-20 lg:mb-[200px]">
       <h2 class="text-4xl font-bold text-center mb-16 2xl:text-5xl">What they’ve said</h2>
 
-      <CarouselApp v-if="isMobileOrAndroid" />
+      <div class="w-full" v-if="isMobileOrAndroid">
+        <CarouselApp />
+      </div>
       <TestimonialSlider v-else />
 
       <button
