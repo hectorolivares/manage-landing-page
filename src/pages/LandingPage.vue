@@ -4,7 +4,6 @@ import TestimonialSlider from '../components/TestimonialSlider.vue';
 import CarouselApp from '../components/CarouselApp.vue';
 import Footer from '../components/Footer.vue';
 import Header from '../components/Header.vue';
-import NewCarosuel from '../components/NewCarosuel.vue';
 </script>
 
 <template>
