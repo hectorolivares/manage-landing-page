@@ -1,5 +1,5 @@
 <template>
-  <Carousel :items-to-show="1" :wrap-around="true">
+  <Carousel :wrap-around="true" items-to-show="1">
     <Slide v-for="(testimonial, index) in testimonials" :key="index">
       <div class="carousel__item">
         <div class="relative flex flex-col items-center justify-center">
@@ -8,7 +8,6 @@
           <p class="opacity-50 text-center text-sm pb-4 px-2">{{ testimonial.message }}</p>
           <div class="absolute bg-[#FFF6F3] w-full h-[85%] rounded-lg -z-10 bottom-0"></div>
         </div>
-        <!-- {{ slide }} -->
       </div>
     </Slide>
 
@@ -33,8 +32,6 @@ export default defineComponent({
   },
   data() {
     return {
-      isHover: false,
-      animationPlayState: 'running',
       testimonials: [
         {
           name: "Anisha Li",
@@ -69,7 +66,7 @@ export default defineComponent({
 <style>
 .carousel__item {
   max-height: 250px;
-  width: 100%;
+  width: 400px;
   color: black;
   font-size: 20px;
   border-radius: 8px;
