@@ -28,7 +28,7 @@
       </ul>
 
       <div class="flex flex-col-reverse w-full h-full justify-center mt-10 lg:mt-0 lg:flex-col lg:items-start lg:justify-between">
-      <img class="h-[28px] mt-12 lg:mt-0" src="/public/logo-white.svg" alt="" />
+      <img class="h-[28px] mt-12 lg:mt-0" src="/logo-white.svg" alt="" />
   
         <div class="flex justify-evenly">
           <a href="#"

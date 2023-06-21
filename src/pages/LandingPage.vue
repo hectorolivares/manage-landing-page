@@ -12,12 +12,12 @@ import NewCarosuel from '../components/NewCarosuel.vue';
   <main class="pt-[120px] lg:pt-[160px] relative overflow-hidden">
     <img
       class="absolute -z-10 left-20 -top-8 w-full lg:left-[58%] lg:-top-[8%] lg:w-[60%] 2xl:left-[58%] 2xl:-top-[10%] 2xl:w-[50%]"
-      src="public/bg-tablet-pattern.svg" alt="">
+      src="/bg-tablet-pattern.svg" alt="">
     <img class="absolute -z-10 left-56 top-[34rem] w-[200%] lg:-left-[30%] lg:top-[50%] lg:w-[50%]"
-      src="public/bg-tablet-pattern.svg" alt="">
+      src="/bg-tablet-pattern.svg" alt="">
     <section
       class="flex relative flex-col items-center justify-between lg:px-24 mb-24 2xl:px-0 lg:flex-row-reverse lg:max-w-[1400px] lg:m-auto lg:mb-[200px]">
-      <img class="lg:w-[50%] 2xl:w-[45%]" src="public/illustration-intro.svg" alt="" />
+      <img class="lg:w-[50%] 2xl:w-[45%]" src="/illustration-intro.svg" alt="" />
 
       <div class="flex flex-col items-center text-center lg:text-start lg:items-start lg:w-[40%]">
         <h1 class="text-4xl font-bold leading-snug mb-4 lg:text-5xl lg:mb-8 2xl:text-6xl">
